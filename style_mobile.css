@@ -4,7 +4,7 @@
 header{
      padding: 10px 17px;
 }
-header i{
+header .burger i{
     display: block;
 }
 .logo h1 {
@@ -45,8 +45,8 @@ header i{
     margin-bottom: 35px;
 }
 .search input {
-    padding: 1.3rem 0.5rem;
-    width: 207px;
+   padding: 1.3rem 0.5rem;
+    width: 189px;
 
 }
 
@@ -120,6 +120,6 @@ input::placeholder {
     grid-template-rows: 1fr 1fr;
         gap: 2rem 4rem;
 }
-.main_img img{
-        width: 365px;
+.main-img img{
+        width: 365px !important;
 }
