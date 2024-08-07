@@ -1,0 +1,368 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: "Avenir Next", sans-serif !important;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 45px;
+    border-bottom: 1px solid #EEF0FC;
+}
+.logo h1{
+    color: #3040C4;
+    font-size:36px ;
+    line-height: 42.19px;
+    font-weight: 800;
+}
+.nav_links{
+    display: flex;
+}
+.nav_links li{
+    list-style-type: none;
+    padding: 1rem 1rem;
+    Line-height:24.59px
+}
+.nav_links li a{
+     font-weight: 500;
+    color: black;
+    font-size: 18px;
+   
+}
+header i{
+    display: none;
+}
+/* ---------------------------Main----------------------------- */
+.vp-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.boxing{
+    width: 400px;
+   
+    
+}
+.boxing h2{
+    font-size:48px ;
+    Line-height:65.57px;
+    text-transform: capitalize;
+
+}
+.boxing p{
+    font-size: 19px;
+    Line-height:29.51px;
+    Width:368px
+}
+.btn-find{
+    background: #3040C4;
+    padding: 1.1rem 3.8rem;
+    border: transparent;
+    border-radius: 28px;
+}
+
+.btn-find a {
+     text-decoration: none;
+     color: #fff;
+     font-weight: 700;
+     text-transform: capitalize;
+
+}
+/* ----------------------------Section 1------------------- */
+.bloc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10rem 2rem;
+}
+.container{
+ background: #EEF0FC;
+  display: flex;
+  padding: 4rem 1rem;
+  align-items: center;
+ flex-direction: column;
+ width: 1546px;
+ height: 512px;
+ border-radius: 25px;
+ 
+}
+.container h2{
+font-Size:36px;
+Line-height:49.18px
+
+}
+.animals{
+display: flex;
+align-items: center;
+}
+.animals .img_animals{
+    border-radius: 50%;
+    background-color: #fff;
+}
+.animals .img_animals img{
+width: 2rem;
+padding: 1rem 1.2rem;
+
+}
+.animals p{
+    color:#9FA2B8;
+    padding: 1rem 1.2rem;
+}
+.search{
+    padding: 2rem 1rem;
+}
+.search input{
+    border: 1px solid #3040C4;
+    padding: 1.6rem 7.5rem;
+    border-radius: 42px;
+}
+.search button{
+    background-color: #3040C4;
+    padding: 1.6rem 4.5rem;
+    color: #fff;
+    border: transparent;
+    border-radius: 50px;
+    margin-left: -59px;
+    font-size: 15px;
+    font-weight: 500;
+}
+input::placeholder {
+    color: #3040C4;
+    opacity: 0.5; 
+    text-align: left !important; 
+  }
+  .search i{
+     position: absolute;
+     margin: 18px 24px;
+     font-size: 27px;
+  }
+  .img-infos{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 7rem;
+    margin-top: -168px;
+  }
+  .img-infos_items{
+    box-shadow: 3px 4px #f5f0f0;
+  }
+  .img-infos_items img{
+    width:  182px;
+    
+  }
+  .img-infos_items p{
+    font-size: 14px;
+  }
+  .img-infos_items h3{
+    font-size: 18px;
+  }
+  .item_img{
+    background: #F4DAEA;
+    padding: 5.8rem 2.2rem 1rem 2.2rem;
+  }
+  .specif_img{
+    background-color:  #ECC8BF;
+  }
+
+  /* -------------------Scryion 3 -------------- */
+
+.bloc_woks{
+    display: flex;
+    justify-content: space-around;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
+}
+.bloc_woks h2{
+    font-size: 36px;
+    padding: 3rem 0rem;
+}
+.bloc_woks ul li img{
+    width: 11rem;
+    height: 11rem;
+    border-radius: 201px;
+}
+.cards{
+    display: flex;
+  
+}
+.cards ul{
+    text-align: center;
+}
+.cards ul li{
+    
+    padding: 0.5rem 1rem;
+    
+}
+.card ul li h3 {
+    margin: 0 !important;
+    font-size: 24px;
+}
+.card ul li p{
+    color: #6A6C79;
+    line-height: 21.86px;
+}
+.card{
+    width: 346px;
+    padding: 1rem 5rem;
+}
+/* -------------------Section Features---------------------- */
+.features{
+    background-color: #F6F6F9;
+    padding: 6rem 5rem;
+
+}
+.content_features{
+display: flex;
+align-items: center;
+flex-direction: column;
+}
+.title_features{
+    text-align: center;
+    max-width: 546px;
+    line-height: 31.59px;
+    padding: 14px;
+
+}
+.title_features h2{
+    font-size: 36px;
+}
+.title_features p{
+    font-size: 18px;
+    color: #5F5F80;
+}
+.card_features{
+display: grid;
+grid-template-columns:1fr 1fr 1fr;
+grid-template-rows: 1fr ;
+
+}
+.card_features ul img{
+    width: 378px;
+}
+.card_features ul h4{
+    font-size: 24px;
+    font-weight: 400;
+}
+.card_features ul a li{
+    font-size: 14px;
+}
+/* ------------------------Last Section ----------------------- */
+
+.search_pets{
+    background-color:#3040C4  ;
+    padding: 5rem 2rem;
+    text-align: center;
+}
+.card_features a{
+    color:#3040C4  ;
+    line-height: 2rem;
+    text-transform: capitalize;
+    font-weight: 700;
+    
+}
+.search_pets_content{
+    display: grid;
+    grid-template-columns:1fr;
+    grid-template-rows: 1fr 1fr ;
+    justify-content: center;
+    align-items: center;
+    gap: 23px;
+}
+.search_pets h2{
+    margin: 0;
+    font-size:36px;
+    color: white;
+}
+/* Width
+193px
+Height
+64px
+Radius
+41px
+Border
+1px */
+.search_pets_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 1rem;;
+    gap: 22px;
+}
+.search_pets_btn button{
+    Width:193px;
+    Height:64px;
+    border-radius: 41px;
+   
+}
+.btn_search_pet{
+background: white;
+color: #3040C4;
+border-color: transparent;
+}
+.btn_search_donate{
+    background-color: transparent;
+    border-color: white;
+}
+.btn_search_pet a{
+    font-size: 18px;
+}
+.btn_search_donate a{
+    color: white;
+    font-size: 18px;
+}
+/* ---------------Footer------------------- */
+.footer_content{
+    padding: 4rem 11rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+.logo_content li{
+    padding: 0.6rem 0.6rem;
+}
+.logo_content ul li h2{
+    color: #3040C4;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.links{
+    display: flex;
+    gap: 2rem;
+}
+.logo_content p{
+    margin:  0;
+    padding: 0.2rem 0rem;
+}
+.links li {
+    padding: 0.8rem 0.6rem;
+   
+}
+.links li h5,a{
+    font-size: 14px;
+    color: black;
+}
+.links li h5{
+    font-weight: 700;
+
+}
+.search_pets h2 {
+   
+    font-size: 24px;
+    
+}
+.search_pets_btn button {
+    Width: 158px;
+    Height: 60px;
+ 
+}
+
